@@ -11,4 +11,4 @@ Example:
 ```
 go run main.go 4
 ```
-*** Note : Don't forget to update `.env` as per your network. ***
+** Note : Don't forget to update `.env` as per your network. 

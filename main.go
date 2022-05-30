@@ -105,6 +105,9 @@ func main() {
 				time.Sleep(1 * time.Second)
 				continue
 			}
+		} else {
+			fmt.Println("No updates to process for validator: ", validatorId)
+			break
 		}
 		time.Sleep(18 * time.Second)
 	}
